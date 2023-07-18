@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsl(34, 78%, 91%);
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+img {
+  width: 800px;
+  padding: 10px;
+  border-radius: 20px;
+}
+nav {
+  text-align: left;
+}
+header img {
+  width: 100px;
+  background-color: beige;
+  float: left;
+  margin-top: 0 auto;
+  margin-right: 50px;
+}
+
+#logo {
+  text-align: left;
+  font-weight: bolder;
+  color: red;
+  opacity: 80%;
+  width: 80px;
+  margin-top: 200px;
+}
+a {
+  text-align: left;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  color: brown;
+}
+th {
+  width: 500px;
+  background-color: brown;
+}
+table {
+  margin-top: 10px;
+  background-color: azure;
+  width: 500px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+td {
+  background-color: bisque;
+}
